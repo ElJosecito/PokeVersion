@@ -27,7 +27,7 @@ function Router() {
   return (
     <Provider store={store}>
       <header className="w-full h-16 flex items-center px-5 fixed  bg-blue-500 z-50">
-        <div className="max-w-screen-xl w-full h-full flex items-center">
+        <div className="max-w-screen-xl w-full h-full flex items-center hidden md:block">
           <h1 className="text-2xl font-bold text-white hidden md:block">PokeVersion</h1>
         </div>
         <ul className="flex items-center">
