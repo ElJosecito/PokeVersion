@@ -87,7 +87,7 @@ function PokemonList() {
       <div className="max-w-screen-xl w-full min-h-full">
         <form action="" onSubmit={handleSubmit} className="flex items-center">
           <div className="my-10 mx-2 border-b-4 border-solid border-[#22223B]">
-            <input type="text" placeholder="Busqueda por Id y nombre" onChange={handleInput} className="h-10 w-80 focus:outline-none px-3 bg-transparent text-lg font-semibold text-[#22223B]"/>
+            <input type="text" placeholder="Busqueda por Id y nombre" onChange={handleInput} className="h-10 w-48 md:w-80 focus:outline-none px-3 bg-transparent text-lg font-semibold text-[#22223B]"/>
           </div>
           <button onChange={handleSubmit}  className="bg-blue-500 mx-4 w-20 text-white font-bold py-2 text-xl rounded-lg hover:bg-blue-600 transition-colors duration-150">
             <FontAwesomeIcon icon={faSearch} />
